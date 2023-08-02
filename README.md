@@ -9,3 +9,6 @@
 - bitwise operator
 - step: `step(edge, x) returns (x >= edge) ? 1 : 0`
 - length
+
+## Passing data to shader
+- [Bresenham's Line Algorithm](http://sunshine2k.de/coding/java/Bresenham/RasterisingLinesCircles.pdf)
