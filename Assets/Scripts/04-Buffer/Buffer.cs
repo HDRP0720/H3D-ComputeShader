@@ -84,7 +84,7 @@ public class Buffer : MonoBehaviour
     shader.SetTexture(circlesHandle, "Result", outputTexture);
 
     int stride = (2 + 2 + 1) * sizeof(float);
-    buffer = new ComputeBuffer(circleData.Length, stride);
+    buffer = new ComputeBuffer(circleData.Length, stride);    
     buffer.SetData(circleData);
     shader.SetBuffer(circlesHandle, "circlesBuffer", buffer);
 

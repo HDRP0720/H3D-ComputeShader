@@ -12,3 +12,9 @@
 
 ## Passing data to shader
 - [Bresenham's Line Algorithm](http://sunshine2k.de/coding/java/Bresenham/RasterisingLinesCircles.pdf)
+- frac
+
+## Compute Buffer
+- ComputeBuffer
+- stride
+- StructuredBuffer
